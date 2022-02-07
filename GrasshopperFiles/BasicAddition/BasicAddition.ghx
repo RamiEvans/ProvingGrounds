@@ -42,8 +42,17 @@
           <chunks count="3">
             <chunk name="Revisions">
               <items count="1">
-                <item name="RevisionCount" type_name="gh_int32" type_code="3">0</item>
+                <item name="RevisionCount" type_name="gh_int32" type_code="3">1</item>
               </items>
+              <chunks count="1">
+                <chunk name="Revision" index="0">
+                  <!--Revision made on: Monday, 07 February 2022 13:06:22-->
+                  <items count="2">
+                    <item name="Content" type_name="gh_string" type_code="10">REV1</item>
+                    <item name="Date" type_name="gh_date" type_code="8">637798359827771434</item>
+                  </items>
+                </chunk>
+              </chunks>
             </chunk>
             <chunk name="Projection">
               <items count="2">
